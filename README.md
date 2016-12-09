@@ -69,3 +69,16 @@ def calculate_years(principal, interest, tax, desired):
     return years
 
 ```
+
+### 5.  Determine if three sides can make a triangle.
+##### - Module: is_triangle.py
+##### - Tests: test_is_triangle.py
+##### - Link: https://www.codewars.com/kata/is-this-a-triangle/train/python
+
+```python
+"""Submitted by PilgrimShadow."""
+
+def is_triangle(a, b, c):
+  return abs(a-b) < c < a+b
+
+```
