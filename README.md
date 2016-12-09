@@ -52,3 +52,20 @@ def toJadenCase(string):
     return " ".join(w.capitalize() for w in string.split())
 
 ```
+
+### 5.  Calculate needed years to achieve investment goals.
+##### - Module: calculate_years.py
+##### - Tests: test_calculate_years.py
+##### - Link: https://www.codewars.com/kata/money-money-money/train/python
+
+```python
+"""Submitted by pidi4."""
+
+def calculate_years(principal, interest, tax, desired):
+    years = 0
+    while principal < desired:
+        principal = principal * (1 + 1 * interest * (1 - tax))
+        years += 1
+    return years
+
+```

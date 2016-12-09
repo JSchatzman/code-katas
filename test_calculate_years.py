@@ -1,0 +1,18 @@
+"""Test calculate_years.py."""
+
+import pytest
+
+
+answer_table = [
+    [1000, 0.05, 0.18, 1100, 3],
+    [1000, 0.01625, 0.18, 1200, 14],
+    [1000, 0.05, 0.18, 1000, 0],
+
+]
+
+
+@pytest.mark.parametrize("princial, interest, tax, desired, answer", answer_table)
+def test_calculate_years(princial, interest, tax, desired, answer):
+    """Test for calculate_years function."""
+    from calculate_years import calculate_years
+    assert calculate_years(princial, interest, tax, desired) == answer
