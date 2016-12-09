@@ -1,7 +1,6 @@
 """Test multiply.py."""
 
 import pytest
-from multiply import multiply
 
 
 answer_table = [
@@ -20,4 +19,3 @@ def test_fibonacci(a, b, answer):
     """Test for multiply function."""
     from multiply import multiply
     assert multiply(a, b) == answer
-
