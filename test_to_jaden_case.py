@@ -106,6 +106,6 @@ answer_table = [
 
 @pytest.mark.parametrize("string, answer", answer_table)
 def test_validate_pin(string, answer):
-    """Test for multiply function."""
+    """Test for to jaden case function."""
     from to_jaden_case import to_jaden_case
     assert to_jaden_case(string) == answer

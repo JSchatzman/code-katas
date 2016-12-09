@@ -1,6 +1,6 @@
 # code-katas
 
-### 1.  Multiply two numbers.
+### 1.  Multiply two numbers. (Kyu 8)
 ##### - Module: multiply.py
 ##### - Tests: test_multiply.py
 ##### - Link: https://www.codewars.com/kata/multiply/train/python
@@ -12,7 +12,7 @@ multiply = lambda x, y: x * y
 ```
 
 
-### 2.  Reverse words if longer than 4 letters.
+### 2.  Reverse words if longer than 4 letters. (Kyu 6)
 ##### - Module: spin_words.py
 ##### - Tests: test_spin_words.py
 ##### - Link: https://www.codewars.com/kata/stop-gninnips-my-sdrow/train/python
@@ -27,7 +27,7 @@ def spin_words(sentence):
 
 ```
 
-### 3.  Validate a 4 or 6 digit pin number.
+### 3.  Validate a 4 or 6 digit pin number. (Kyu 7)
 ##### - Module: validate_pin.py
 ##### - Tests: test_validate_pin.py
 ##### - Link: https://www.codewars.com/kata/regex-validate-pin-code/train/python
@@ -40,7 +40,7 @@ def validate_pin(pin):
 
 ```
 
-### 4.  Convert string to Jaden Case.
+### 4.  Convert string to Jaden Case. (Kyu 7)
 ##### - Module: to_jaden_case.py
 ##### - Tests: test_to_jaden_case.py
 ##### - Link: https://www.codewars.com/kata/jaden-casing-strings/train/python
@@ -53,7 +53,7 @@ def toJadenCase(string):
 
 ```
 
-### 5.  Calculate needed years to achieve investment goals.
+### 5.  Calculate needed years to achieve investment goals. (Kyu 7)
 ##### - Module: calculate_years.py
 ##### - Tests: test_calculate_years.py
 ##### - Link: https://www.codewars.com/kata/money-money-money/train/python
@@ -70,7 +70,7 @@ def calculate_years(principal, interest, tax, desired):
 
 ```
 
-### 6.  Determine if three sides can make a triangle.
+### 6.  Determine if three sides can make a triangle. (Kyu 7)
 ##### - Module: is_triangle.py
 ##### - Tests: test_is_triangle.py
 ##### - Link: https://www.codewars.com/kata/is-this-a-triangle/train/python
@@ -83,7 +83,7 @@ def is_triangle(a, b, c):
 
 ```
 
-### 7.  Return sorted string with unique elements from two input strings.
+### 7.  Return sorted string with unique elements from two input strings. (Kyu 7)
 ##### - Module: longest.py
 ##### - Tests: test_longest.py
 ##### - Link: https://www.codewars.com/kata/two-to-one/train/python
@@ -93,5 +93,20 @@ def is_triangle(a, b, c):
 
 def longest(s1, s2):
     return ''.join(sorted((set(s1+s2))))
+
+```
+
+### 8.  Return sum of all numbers in a string. (Kyu 7)
+##### - Module: sum_from_string.py
+##### - Tests: test_sum_from_string.py
+##### - Link: https://www.codewars.com/kata/sum-up-the-random-string/train/python
+
+```python
+"""Submitted by JustyFY."""
+
+import re
+def sum_from_string(string):
+    d = re.findall("\d+",string)
+    return sum(int(i) for i in d)
 
 ```

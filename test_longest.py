@@ -15,6 +15,6 @@ answer_table = [
 
 @pytest.mark.parametrize("s1, s2, answer", answer_table)
 def test_longest(s1, s2, answer):
-    """Test for calculate_years function."""
+    """Test for longest function."""
     from longest import longest
     assert longest(s1, s2) == answer
