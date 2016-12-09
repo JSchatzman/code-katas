@@ -15,7 +15,7 @@ answer_table = [
 
 
 @pytest.mark.parametrize("a, b, answer", answer_table)
-def test_fibonacci(a, b, answer):
+def test_multiply(a, b, answer):
     """Test for multiply function."""
     from multiply import multiply
     assert multiply(a, b) == answer
