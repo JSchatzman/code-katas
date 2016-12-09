@@ -70,7 +70,7 @@ def calculate_years(principal, interest, tax, desired):
 
 ```
 
-### 5.  Determine if three sides can make a triangle.
+### 6.  Determine if three sides can make a triangle.
 ##### - Module: is_triangle.py
 ##### - Tests: test_is_triangle.py
 ##### - Link: https://www.codewars.com/kata/is-this-a-triangle/train/python
@@ -80,5 +80,18 @@ def calculate_years(principal, interest, tax, desired):
 
 def is_triangle(a, b, c):
   return abs(a-b) < c < a+b
+
+```
+
+### 7.  Return sorted string with unique elements from two input strings.
+##### - Module: longest.py
+##### - Tests: test_longest.py
+##### - Link: https://www.codewars.com/kata/two-to-one/train/python
+
+```python
+"""Submitted by Staticor."""
+
+def longest(s1, s2):
+    return ''.join(sorted((set(s1+s2))))
 
 ```
