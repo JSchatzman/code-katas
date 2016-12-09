@@ -81,7 +81,7 @@ celerybeat-schedule
 # virtualenv
 venv/
 ENV/
-
+code-katas-venv/
 # Spyder project settings
 .spyderproject
 
