@@ -26,3 +26,16 @@ def spin_words(sentence):
     return re.sub(r"\w{5,}", lambda w: w.group(0)[::-1], sentence)
 
 ```
+
+### 3.  Validate a 4 or 6 digit pin number.
+##### - Module: validate_pin.py
+##### - Tests: test_validate_pin.py
+##### - Link: https://www.codewars.com/kata/regex-validate-pin-code/train/python
+
+```python
+"""Submitted by suic."""
+
+def validate_pin(pin):
+    return len(pin) in (4, 6) and pin.isdigit()
+
+```

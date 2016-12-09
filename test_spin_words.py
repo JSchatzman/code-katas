@@ -1,4 +1,4 @@
-"""Test multiply.py."""
+"""Test spin_words.py."""
 
 import pytest
 
