@@ -39,3 +39,16 @@ def validate_pin(pin):
     return len(pin) in (4, 6) and pin.isdigit()
 
 ```
+
+### 4.  Convert string to Jaden Case.
+##### - Module: to_jaden_case.py
+##### - Tests: test_to_jaden_case.py
+##### - Link: https://www.codewars.com/kata/jaden-casing-strings/train/python
+
+```python
+"""Submitted by Azuaron."""
+
+def toJadenCase(string):        
+    return " ".join(w.capitalize() for w in string.split())
+
+```
