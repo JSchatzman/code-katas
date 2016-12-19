@@ -116,3 +116,11 @@ def sum_from_string(string):
 ##### - Tests: test_sum_terms.py
 ##### - Description: Return the nth value in a series.  The 0th value is 0
 #####   the 1st value is 1 and the rest is iterative, each time adding 1/(1+(3*n))
+
+
+### 10.  Determine if input string has valid parentheses.
+##### - Module: parenthetics.py
+##### - Test: test_parenthetics.py
+##### - Descrition: Return 0 if input string has proper parenthetics.
+#####               Return 1 if it has unclosed open paren
+#####               Return -1 if it has unopened close paren.
