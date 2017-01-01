@@ -1,0 +1,8 @@
+"""Implementation of card sorting kata."""
+
+
+def sort_cards(cards):
+    """Sort shuffled list of cards, sorted by rank."""
+    card_rank = {'A': 1, '1': 2, '2': 3, '3': 4, '4': 5, '5': 6, '6': 7, '7': 8,
+                 '8': 9, '9': 10, 'T': 11, 'J': 12, 'Q': 13, 'K': 14}
+    return sorted(cards, key=lambda x: card_rank[x])

@@ -121,6 +121,11 @@ def sum_from_string(string):
 ### 10.  Determine if input string has valid parentheses.
 ##### - Module: parenthetics.py
 ##### - Test: test_parenthetics.py
-##### - Descrition: Return 0 if input string has proper parenthetics.
+##### - Description: Return 0 if input string has proper parenthetics.
 #####               Return 1 if it has unclosed open paren
 #####               Return -1 if it has unopened close paren.
+
+### 11.  Return a sorted deck of cards.
+##### - Module: sort_cards.py
+##### - Test: test_sort_cards.py
+##### - Description: Return a sorted list of cards given an input deck based on rank (Ace low).
