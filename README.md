@@ -129,3 +129,8 @@ def sum_from_string(string):
 ##### - Module: sort_cards.py
 ##### - Test: test_sort_cards.py
 ##### - Description: Return a sorted list of cards given an input deck based on rank (Ace low).
+
+### 12. Display a pyramid from input string.
+##### - Module: string_pyramid.py
+##### - Test: test_string_pyramid.py
+##### - Description: Display a pyramid from input string from above and side and count number of visible blocks and all blocks.
